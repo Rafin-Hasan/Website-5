@@ -1,0 +1,23 @@
+.navbar-container {
+  @apply container mx-auto mt-[41px] mb-[100px] bg-blue-900 text-white px-4 py-2 flex items-center justify-between;
+}
+
+.logo-container {
+  @apply flex-shrink-0;
+}
+
+.logo {
+  @apply h-8 w-auto;
+}
+
+.nav-links {
+  @apply flex space-x-8;
+}
+
+.nav-link {
+  @apply text-[#8588b0] font-montserrat text-[24px] font-medium;
+}
+
+.check-status-btn {
+  @apply bg-[#C4C4C4] font-montserrat font-bold text-[24px] bg-opacity-[10%] text-[#17C2EC] py-2 px-4 rounded-[20px] shadow-lg;
+}
