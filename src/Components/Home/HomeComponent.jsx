@@ -4,8 +4,8 @@ import Banner from "../Banner/Banner";
 
 const HomeComponent = () => {
   return (
-    <section className="bg ">
-      <Banner />
+    <section className="bg-blue-950 ">
+      {/* <Banner /> */}
       <div className="flex justify-between">
         <div>
           <div className="text-center  text-white p-10 rounded-lg ">
