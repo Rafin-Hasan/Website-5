@@ -1,5 +1,5 @@
 .navbar-container {
-  @apply container mx-auto mt-[41px] mb-[100px] bg-blue-900 text-white px-4 py-2 flex items-center justify-between;
+  @apply container mx-auto mt-[41px] mb-[100px] text-white px-4 py-2 flex items-center justify-between;
 }
 
 .logo-container {

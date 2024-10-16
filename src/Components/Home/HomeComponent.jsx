@@ -1,9 +1,11 @@
 import React from "react";
 import "./HomeComponent.css";
+import Banner from "../Banner/Banner";
 
 const HomeComponent = () => {
   return (
     <section className="bg ">
+      <Banner />
       <div className="flex justify-between">
         <div>
           <div className="text-center  text-white p-10 rounded-lg ">
