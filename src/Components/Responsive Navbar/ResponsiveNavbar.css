@@ -1,0 +1,6 @@
+.resNav {
+  @apply bg-blue-950 lg:hidden;
+}
+.resMenu {
+  @apply container;
+}

@@ -1,5 +1,5 @@
 .navbar {
-  @apply bg-blue-950;
+  @apply bg-blue-950 hidden lg:block;
 }
 .navbar-container {
   @apply container  mx-auto pt-[41px] pb-[100px] text-white px-4 py-2 flex items-center justify-between;
@@ -7,10 +7,6 @@
 
 .logo-container {
   @apply flex-shrink-0;
-}
-
-.logo {
-  @apply h-8 w-auto;
 }
 
 .nav-links {

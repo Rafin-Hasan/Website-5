@@ -1,0 +1,47 @@
+/* Section and Container */
+.home-section {
+  @apply bg-blue-950;
+}
+
+.home-container {
+  @apply container mx-auto flex justify-between py-8 px-4;
+}
+
+/* Text Content */
+.home-text-content {
+  @apply text-white;
+}
+
+.home-heading-small {
+  @apply text-[24px] font-bold tracking-wider text-sky-400 mb-4;
+}
+
+.home-heading-large {
+  @apply w-[551px] text-[48px] font-montserrat text-white font-extrabold mb-4;
+}
+
+.home-brand-name {
+  @apply text-[48px] font-extrabold text-sky-400 block;
+}
+
+.home-description {
+  @apply w-[603px] text-white font-montserrat text-[24px] font-bold mt-4 mb-8;
+}
+
+/* Button Group */
+.home-button-group {
+  @apply flex space-x-3;
+}
+
+.btn-vaccine {
+  @apply bg-sky-400 text-white text-[24px] font-bold py-[20px] px-[25px] rounded-[20px] shadow-lg transition duration-200 transform hover:border hover:border-sky-400 hover:bg-transparent hover:scale-105;
+}
+
+.btn-help {
+  @apply text-white text-[24px] font-bold py-[20px] px-[25px] rounded-[20px] border border-sky-400 shadow-lg transition duration-200 transform hover:bg-cyan-500 hover:border-cyan-600 hover:scale-105;
+}
+
+/* Image Styling */
+.home-banner-image {
+  @apply max-w-full h-auto;
+}

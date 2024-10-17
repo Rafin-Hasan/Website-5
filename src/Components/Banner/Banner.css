@@ -1,4 +1,3 @@
 .banner {
-  background-image: url(../../../public/Image/homebg.png);
-  @apply w-full h-full;
+  @apply bg-[url("./Image/homebg.png")];
 }
