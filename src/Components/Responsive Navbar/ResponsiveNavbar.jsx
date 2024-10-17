@@ -5,7 +5,7 @@ const ResponsiveNavbar = () => {
   return (
     <nav className="resNav">
       <div className="resMenu ">
-        <div>
+        <div className="logo">
           <img src="./Image/logo.png" alt="logo" />
         </div>
         <div></div>

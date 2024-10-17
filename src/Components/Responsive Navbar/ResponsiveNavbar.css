@@ -2,5 +2,8 @@
   @apply bg-blue-950 lg:hidden;
 }
 .resMenu {
-  @apply container;
+  @apply container pt-[50px] pl-[50px];
+}
+.logo {
+  @apply w-[200px] h-[35px];
 }
