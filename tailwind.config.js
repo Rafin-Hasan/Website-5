@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        skyBlue: "#17C2EC",
+      },
     },
     container: {
       center: true,

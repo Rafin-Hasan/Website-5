@@ -18,9 +18,10 @@
 }
 
 .nav-link {
-  @apply text-[#8588b0] font-montserrat text-[24px] font-medium;
+  @apply text-[#8588b0] font-montserrat text-[24px] hover:text-white hover:font-bold font-medium;
+  transition: all linear 0.3s;
 }
 
 .check-status-btn {
-  @apply bg-[#C4C4C4] font-montserrat font-bold text-[24px] bg-opacity-[10%] text-[#17C2EC] py-2 px-4 rounded-[20px] shadow-lg;
+  @apply bg-[#C4C4C4] font-montserrat font-bold text-[24px] bg-opacity-[10%] text-skyBlue hover:text-white active:scale-95 py-5 px-[26px] rounded-[20px] shadow-lg;
 }
