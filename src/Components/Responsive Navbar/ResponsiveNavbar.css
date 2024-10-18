@@ -2,8 +2,14 @@
   @apply bg-blue-950 lg:hidden;
 }
 .resMenu {
-  @apply container pt-[50px] pl-[50px];
+  @apply container flex justify-between pt-[50px] pl-[50px];
 }
 .logo {
   @apply w-[150px] h-[28px] md:w-[200px] md:h-[35px];
+}
+.icon {
+  @apply text-white  p-[7px] mr-[35px] rounded-[6px] bg-[rgba(196,196,196,0.16)] relative;
+}
+.popupMenu {
+  @apply bg-[rgba(196,196,196,0.16)] p-5 w-[130px] text-center rounded-md text-white font-montserrat font-semibold absolute right-0;
 }

@@ -9,9 +9,17 @@ const ResponsiveNavbar = () => {
         <div className="logoDiv">
           <img className="logo" src="./Image/logo.png" alt="logo" />
         </div>
-        <div>
+        <div className="icon">
           <FiAlignRight />
         </div>
+      </div>
+      <div className="popupMenu">
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Schedule</li>
+          <li>Contact us</li>
+        </ul>
       </div>
     </nav>
   );
