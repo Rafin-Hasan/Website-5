@@ -2,14 +2,64 @@
   @apply bg-blue-950 lg:hidden;
 }
 .resMenu {
-  @apply container flex justify-between pt-[50px] pl-[50px];
+  @apply container flex justify-between pt-[50px] pl-[20px];
 }
 .logo {
   @apply w-[150px] h-[28px] md:w-[200px] md:h-[35px];
 }
 .icon {
-  @apply text-white  p-[7px] mr-[35px] rounded-[6px] bg-[rgba(196,196,196,0.16)] relative;
+  @apply text-white p-[7px] mr-[35px] rounded-[6px] bg-[rgba(196,196,196,0.16)] relative;
 }
+
+/* Popup Menu and its Transition */
 .popupMenu {
-  @apply bg-[rgba(196,196,196,0.16)] p-5 w-[130px] text-center rounded-md text-white font-montserrat font-semibold absolute right-0;
+  @apply bg-[rgba(196,196,196,0.16)] p-5 w-[140px] text-center rounded-md text-white font-montserrat font-semibold absolute top-[100px] right-0 z-20;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none; /* Prevents interaction when hidden */
+}
+.popupMenu ul li {
+  @apply text-[rgba(255,255,255,0.75)] font-montserrat hover:font-bold hover:text-white;
+}
+.showMenu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto; /* Enables interaction when visible */
+}
+
+.hideMenu {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+/* Overlay */
+.overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 z-10;
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.showOverlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hideOverlay {
+  opacity: 0;
+  pointer-events: none;
+}
+.closeIcon {
+  @apply text-white text-2xl; /* Adjust size to make it prominent */
+  color: rgb(255, 255, 255); /* Change to a visible color like red */
+  cursor: pointer;
+}
+
+/* Optional: Additional styles for positioning if needed */
+.icon {
+  @apply flex items-center justify-center text-white p-[7px] mr-[35px] rounded-[6px] bg-[rgba(196,196,196,0.16)] relative;
+  z-index: 30; /* Make sure it's above the overlay */
 }
