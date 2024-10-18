@@ -1,14 +1,17 @@
 import React from "react";
 import "./ResponsiveNavbar.css";
+import { FiAlignRight } from "react-icons/fi";
 
 const ResponsiveNavbar = () => {
   return (
     <nav className="resNav">
       <div className="resMenu ">
-        <div className="logo">
-          <img src="./Image/logo.png" alt="logo" />
+        <div className="logoDiv">
+          <img className="logo" src="./Image/logo.png" alt="logo" />
         </div>
-        <div></div>
+        <div>
+          <FiAlignRight />
+        </div>
       </div>
     </nav>
   );

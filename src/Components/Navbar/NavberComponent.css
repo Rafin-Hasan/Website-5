@@ -20,4 +20,5 @@
 
 .check-status-btn {
   @apply bg-[#C4C4C4] font-montserrat font-bold text-[24px] bg-opacity-[10%] text-skyBlue hover:text-white active:scale-95 py-5 px-[26px] rounded-[20px] shadow-lg;
+  transition: all linear 0.1s;
 }

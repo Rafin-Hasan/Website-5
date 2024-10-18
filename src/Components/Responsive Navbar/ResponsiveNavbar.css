@@ -5,5 +5,5 @@
   @apply container pt-[50px] pl-[50px];
 }
 .logo {
-  @apply w-[200px] h-[35px];
+  @apply w-[150px] h-[28px] md:w-[200px] md:h-[35px];
 }
