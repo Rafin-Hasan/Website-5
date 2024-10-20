@@ -1,5 +1,9 @@
+.banner {
+  @apply absolute top-0 bg-cover bg-no-repeat w-full;
+  z-index: -1;
+}
 .home-container {
-  @apply container mx-auto flex flex-wrap justify-between py-8 px-4;
+  @apply container mt-[101px] mx-auto flex flex-wrap justify-between py-8 px-4;
 }
 
 /* Text Content */
