@@ -1,5 +1,5 @@
 .resNav {
-  @apply bg-blue-950 lg:hidden;
+  @apply lg:hidden;
 }
 .resMenu {
   @apply container flex justify-between pt-[50px] pl-[20px];

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import { FiClock } from "react-icons/fi";
 
 const Banner = () => {
   return (
@@ -31,6 +32,22 @@ const Banner = () => {
               alt="banner"
               className="home-banner-image"
             />
+          </div>
+        </div>
+        <div className="flex gap-5">
+          <div className="clock">
+            <FiClock />
+          </div>
+          <div className="text">
+            <p>Schedule your Vaccination</p>
+          </div>
+        </div>
+        <div>
+          <div className="shadow_div">
+            <div className="main_div">
+              <div className="info"></div>
+              <div className="btn"></div>
+            </div>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
   z-index: -1;
 }
 .home-container {
-  @apply container mt-[101px] mx-auto flex flex-wrap justify-between py-8 px-4;
+  @apply container mt-[120px] mx-auto flex flex-wrap justify-between py-8 px-4;
 }
 
 /* Text Content */
@@ -43,4 +43,16 @@
 /* Image Styling */
 .home-banner-image {
   @apply max-w-full h-auto;
+}
+.clock {
+  @apply text-skyBlue p-[10px] bg-[rgba(196,196,196,0.1)] rounded-[10px];
+}
+.text {
+  @apply pt-2 text-white font-montserrat font-bold;
+}
+.shadow_div {
+  @apply w-full bg-[rgba(196,196,196,0.05)] rounded-tr-[20px] rounded-tl-[20px];
+}
+.main_div {
+  @apply w-full bg-[rgba(196,196,196,0.1)] py-5 rounded-tr-[20px] rounded-tl-[20px];
 }
